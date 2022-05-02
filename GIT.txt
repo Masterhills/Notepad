@@ -22,4 +22,5 @@ TO KNOW THE BRANCH you are on--git branch
 TO know the branch you are on, on the remote server -- git branch -r or git branch -a(to list all the branch you are on both remote and locally)
 To create a new branch -- git branch feature-a( A BRANCH named feature-a)
 To switch to a new branch -- git checkout feature-a(To switch to feature-a branch)
-To switch to the previous branch --git checkout -
+To switch to the previous branch --git checkout - 
+To push files on a new branch to a remote server(github): git push -u origin feature-a(pushing the feature-a branch to github)
