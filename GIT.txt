@@ -9,3 +9,6 @@ HOW TO INITIALIZE A REPOSITORY TO BE A GIT ONE
 git init
 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOiO3MGpLTsA3INxSKKtiafn0Y6euMBlUlWJ7tFKIctW lawrencecheck@gmail.com
+
+Reason why we create a ssh key is to be able to have access to our github through the terminal(git bash) on our local machine
+generate a private and public key and upload the public key in our account and with our private key we can push to this repository
