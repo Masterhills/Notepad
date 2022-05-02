@@ -1,0 +1,48 @@
+SQL
+Creating the databases
+SCHEMAS it shows the databases that we have in the current database server
+The row represents record, each row represents a unique information
+How to retrieve data from a single table
+sql is not case sensitive
+
+Comments in sql is done using two dashes
+The select clause
+
+USE sql_invoice(name of database)   --To highlight the database needed
+SELECT [a column(s)]
+FROM products(name of table)
+
+The where clause: we use the where clause to filter data
+The where clause is like a conditional statement
+
+customer_id is a unique number that helps each show the record of each customer. no matter how many times they appear
+multiples table related together
+
+select *(selecting all the columns from a given table)
+
+USE sql_store;
+SELECT *
+FROM customers
+-- WHERE customer_id = 5
+ORDER BY first_name  -- to sort the data on the customers table according to the first name
+
+from the above sql code the order of the clauses matter from the USE TO ORDER.
+The in operator is used when you want to compare an attribute with a list of values
+The between operator is used wheu comparing an attribute with a range of values
+
+we use the % sign to represent any number of characters
+we use the _ to represent single characters
+REGEXP(Regular expression) it helps to search for more complex patterns
+^ with the REGEXP means the character must begin with the
+$ with the REGEXP means the character must end with the 
+| with the REGEXP means the OR
+
+IS NULL
+
+In relational database every table must have a primary key column
+The values of the primary key column should uniquely identify the records in that table
+
+ORDER BY {points} DESC--to arrange the values of the point column in a descending order basically sorting
+LIMIT
+
+Inner joins To select column from multiple tables

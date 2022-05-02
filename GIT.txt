@@ -1,0 +1,11 @@
+GIT
+git add add file to staging area
+git commit to
+HOW TO TAKE FILES FROM YOUR LOCAL MACHINE TO A REMOTE SERVER
+git push
+how to get files from your remote server to your local machine
+git pull
+HOW TO INITIALIZE A REPOSITORY TO BE A GIT ONE 
+git init
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOiO3MGpLTsA3INxSKKtiafn0Y6euMBlUlWJ7tFKIctW lawrencecheck@gmail.com

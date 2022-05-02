@@ -1,0 +1,40 @@
+Pseudo selector
+
+.item:nth-of-type(3){
+}
+
+The one after always win
+padding gives more background
+flex-flow is a combo of flex-direction and flex-wrap
+flex is shorthand for flex-grow, flex-shrink and flex-basis respectively
+
+
+A width is defined by flex basis for flex direction-row while the height is defined by the flex-basis for flex-direction-column
+The flex basis defines the length of an item in the direction of main axis
+
+For flex direction-row:
+	The main axis is horizontal while the cross axis is vertical therefore items are attached or grow in the direction of the main axis
+	which is towards row
+
+For flex-direction-column:
+	The main axis is vertical while the cross axis is horizontal therefore items are attached or grow in the direcion of the main axis
+	which is towards vertical
+
+
+Flex Shrink Property: to maintain a fix width in a flex box we use the flex-shrink property.
+
+How to center a div
+justify content center
+
+what determines main and cross acceess is the flex-direction
+justify content is always focused on the main access.
+align items is always focused on the cross access
+
+  Introduction to flex box
+Flex container
+flex directions 
+
+flex container  is the element that holds the flex-items
+flex: flex-grow flex-shrink flex-basis
+
+CSS grid for the overall layout of the page and use flexbox for the inner elements
