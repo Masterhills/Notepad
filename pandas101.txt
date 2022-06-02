@@ -1,0 +1,4 @@
+item_quants = chipo.groupby[(['item_name']).agg({'quantity': 'sum'})
+item_quants.sort_values('quantity', ascending = False)
+
+Understand the difference between a dataframe, series and etc

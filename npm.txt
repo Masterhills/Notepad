@@ -1,0 +1,61 @@
+ NPM
+Node package manager: it is javascript package(modules/libraries) manager
+it also makes it to share and reuse code
+npmjs.com it is a repository for npm modules. 
+It showcases the docs for each package, how to install their github links and etc
+
+Package.json file
+it has all your application info
+It holds a list of your application dependencies(the modules that your application needs to work)
+It doesn't just hold the names the dependencies. it also list the specific version of the modules that it uses
+The file is created using --  npm init
+				npm init --yes or npm init -y
+To modify the package.json file
+for example modifying the name of the author
+
+		npm config set init-author-name "Lawrence"
+		npm set init-license "mit"
+
+To see the data of the package.json file through terminal
+		npm get init-author-name
+		npm config get init-author-name
+
+To delete information from the package.json file
+		npm config delete init-author-name
+		npm config delete init-license
+
+to install a module and save it to your package.json file as a dependency 
+	to install the module lodash and save it to the package.json file as a dependency
+
+			npm install lodash --save
+what the --save does is it helps install the required module needed by an application to work
+so if the app having the package.json file where the dependency is listed then when you install npm
+using npm install it automtically installs the module on the dependency.
+you can now run the app using node
+
+DEV DEPENDNECY(IT is used for development and not production)
+gulp a task runner that is used to minify your javascript and compile sass files
+
+for example installing the the gulp dev dependency 
+		npm install gulp gulp-sass --save-dev
+
+           
+		npm install --production
+the production flag when used along side installing the module does not install the dev dependencies. it only
+installs the dependencies.
+		npm install 
+	will add the dependencies including the dev dependencies
+
+
+--Uninstalling or Removing dependencies
+
+	 npm uninstall gulp-sass --save-dev 
+	npm remove gulp --save-dev
+
+Installing global modules
+
+	npm install -g nodemon
+
+to uninstall/remove global modules
+
+	npm remove nodemon -g

@@ -1,0 +1,6 @@
+MEASURING ALGORITHM EFFICIENCY WITH BIG-O
+
+Big-o is measuring how code slows as data grows.
+It is about how the running time changes as the data size changes
+To develop faster algorithms it is important to understand Big-O
+Big O is a notation that describes the order of growth of an algorithm. The lower the order of growth, the better.

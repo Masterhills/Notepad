@@ -1,6 +1,27 @@
-GIT
-git add add file to staging area
-git commit to
+GIT and GIThub
+Git is a version control system that allows one or more people work on the same project
+Github is a hosting platform that helps us host our project in a cloud.
+How Git works?
+we have the staging area and commit history
+we use git add to add file to staging area
+we use git commit to move the file from the staging area to commit history
+
+Git init is used for creating a create git repository in the folder. It can only be used on a new project 
+not an existing one
+A commit is basically a safe point
+the staging area process and commit is done on your local machine so when your machine 
+dies(power failure) the changes are lost so it is best to store your changes in a remote server that 
+is where github comes into place
+
+how to delete a folder from the git bash terminal
+rm -rf .git
+how to remove a file from the staging area
+git restore --staged file
+how to stage files that are in a folder
+git add -A
+GIT STATUS: it gives you the information of files that have been staged or unstaged
+GIT COMMIT:git commit -m "new project"
+git diff: it gives you the difference in what you have in the current working directory and what has been committed
 HOW TO TAKE FILES FROM YOUR LOCAL MACHINE TO A REMOTE SERVER
 git push
 how to get files from your remote server to your local machine
@@ -24,3 +45,10 @@ To create a new branch -- git branch feature-a( A BRANCH named feature-a)
 To switch to a new branch -- git checkout feature-a(To switch to feature-a branch)
 To switch to the previous branch --git checkout - 
 To push files on a new branch to a remote server(github): git push -u origin feature-a(pushing the feature-a branch to github)
+How to switch directly to a new branch while simultaneously creating a new branch -- git checkout -b to-delete(switching to a new branch to-delete)
+How to delete a branch: git branch -d to-delete(this is to delete the to-delete branch)
+
+HOW TO MERGE IN GIT?
+git merge feature-a(merging the feature-a branch to the main branch on the main branch)
+
+How to merge a branch through a pull request?

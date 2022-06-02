@@ -1,0 +1,25 @@
+Database design one to many relationships
+
+A table represents objects, tables are created to store data
+-STEPS
+1. What is one to many relationship?
+ A relationship between two or more tables in which one record in one table is related to many records in another table
+example A relationship between customer and an order table, a customer can have many orders
+but an order can belong to a single customer that is why it is a one to many relationships
+another example is the relationship between cars and showrooms. A showroom can have multiple cars but a car 
+cannot have multiple showrooms.
+
+2. Write down what you want to store in a sentence
+	-Store the customer information and the orders that they have made
+	-Store the car and the showroom they are located in
+
+3.Write down the objects from this sentence
+	-identify the words that describe objects in this sentence
+	-objects are basically nouns that refer to things
+	Examples customers, orders from the sentence above
+		cars and showroom
+4. Determine if the relationship is a one to many relationship
+	Does object1 have many object2s or does Object2 have many object1s
+	so does a customer have many orders or does an order have many customers
+
+5.Create a diagram with these tables

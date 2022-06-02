@@ -24,7 +24,7 @@ USE sql_store;
 SELECT *
 FROM customers
 -- WHERE customer_id = 5
-ORDER BY first_name  -- to sort the data on the customers table according to the first name
+ORDER BY first_name  -- to sort the data on the customers table according to the first name IN ASCENDING ORDER
 
 from the above sql code the order of the clauses matter from the USE TO ORDER.
 The in operator is used when you want to compare an attribute with a list of values
@@ -45,4 +45,7 @@ The values of the primary key column should uniquely identify the records in tha
 ORDER BY {points} DESC--to arrange the values of the point column in a descending order basically sorting
 LIMIT
 
-Inner joins To select column from multiple tables
+SELECTING COLUMNS FROM MULTIPLE TABLES
+
+Inner joins: To select column from multiple tables
+A column is ambiguous if it is located in multiple places
