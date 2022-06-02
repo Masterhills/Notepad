@@ -6,8 +6,7 @@ we have the staging area and commit history
 we use git add to add file to staging area
 we use git commit to move the file from the staging area to commit history
 
-Git init is used for creating a create git repository in the folder. It can only be used on a new project 
-not an existing one
+Git init is used for creating a create git repository in the folder. It can only be used on a new project and not an existing one
 A commit is basically a safe point
 the staging area process and commit is done on your local machine so when your machine 
 dies(power failure) the changes are lost so it is best to store your changes in a remote server that 
