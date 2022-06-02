@@ -1,6 +1,7 @@
 GIT and GIThub
 Git is a version control system that allows one or more people work on the same project
 Github is a hosting platform that helps us host our project in a cloud.
+Github is a platform for hosting and collaborating on git repositories
 How Git works?
 we have the staging area and commit history
 we use git add to add file to staging area
@@ -18,9 +19,14 @@ how to remove a file from the staging area
 git restore --staged file
 how to stage files that are in a folder
 git add -A
+how to correct your commit message(on your last commit)
+git commit --amend -m"correcting commit message"
+GIT Push: it helps to store your git project or push the projects from your local machine to the remote server
 GIT STATUS: it gives you the information of files that have been staged or unstaged
 GIT COMMIT:git commit -m "new project"
 git diff: it gives you the difference in what you have in the current working directory and what has been committed
+
+creating a repository
 HOW TO TAKE FILES FROM YOUR LOCAL MACHINE TO A REMOTE SERVER
 git push
 how to get files from your remote server to your local machine
